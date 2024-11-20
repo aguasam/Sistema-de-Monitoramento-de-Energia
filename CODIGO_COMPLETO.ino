@@ -1,7 +1,7 @@
 #define BLYNK_TEMPLATE_NAME "Medidor de energia" // Nome do projeto no Blynk
-#define BLYNK_TEMPLATE_ID "TMPL2p5SSUSPT" // ID do template criado no Blynk
+#define BLYNK_TEMPLATE_ID "TMPL2pa5SSsfdUSPT" // ID do template criado no Blynk
 #define BLYNK_DEVICE_NAME "Arduino" // Nome do dispositivo configurado
-#define BLYNK_AUTH_TOKEN "Zr7MEGtJVvaz__lu8yt-ZSbpZgAWYngJ" // Token de autenticação fornecido pelo Blynk
+#define BLYNK_AUTH_TOKEN "Zr7MEGtsfdJVvaz__lu8yt-ZSbpgZgAWYngJ" // Token de autenticação fornecido pelo Blynk
 #define BLYNK_PRINT Serial // Configuração para exibir logs do Blynk no monitor serial
 
 #define NUM_SAMPLES 10 // Número de amostras para cálculo da média da corrente
@@ -14,8 +14,8 @@
 
 // Credenciais para conexão com o Blynk e a rede Wi-Fi
 char auth[] = BLYNK_AUTH_TOKEN; // Token de autenticação
-char ssid[] = "chunchunmaru_2g"; // Nome da rede Wi-Fi
-char pass[] = "aguasam30"; // Senha da rede Wi-Fi
+char ssid[] = "NOME_DA_REDE";  // Insira o nome da sua rede Wi-Fi
+char pass[] = "SENHA_DA_REDE"; // Insira a senha da sua rede Wi-Fi
 
 // Configuração da comunicação com o módulo ESP8266
 SoftwareSerial EspSerial(10, 11); // Pinos RX e TX usados pelo ESP8266
